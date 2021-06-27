@@ -56,7 +56,7 @@ class LoadingFragment : Fragment() {
 
         mSocket.on("connected", onConnected)
         val obj = JSONObject()
-        obj.put("id", 1)
+        obj.put("id", 2)
         mSocket.emit("connected vehicule", obj)
 
 
